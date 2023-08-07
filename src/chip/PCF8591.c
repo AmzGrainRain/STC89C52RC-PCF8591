@@ -1,5 +1,4 @@
 #include "PCF8591.h"
-#include "uart_controller.h"
 
 unsigned char Convert_To_Voltage(unsigned char original)
 {

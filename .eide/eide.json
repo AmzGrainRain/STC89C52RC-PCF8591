@@ -1,5 +1,5 @@
 {
-  "name": "52PCF",
+  "name": "STC89C52RC-PCF8591",
   "type": "C51",
   "dependenceList": [],
   "srcDirs": [
@@ -12,7 +12,7 @@
     "folders": []
   },
   "miscInfo": {
-    "uid": "73b914aae1534e063668818bf0b0404d"
+    "uid": "165df7d3183460f3860a51f75dd30643"
   },
   "targets": {
     "Release": {

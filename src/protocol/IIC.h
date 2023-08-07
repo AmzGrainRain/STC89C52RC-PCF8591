@@ -1,5 +1,5 @@
-#ifndef _IIC_CONTROLLER_H_
-#define _IIC_CONTROLLER_H_
+#ifndef _PROTOCOL_IIC_H_
+#define _PROTOCOL_IIC_H_
 
 // struct IIC_Controller {
 //   void (*delay)();

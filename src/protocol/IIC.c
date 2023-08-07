@@ -2,8 +2,8 @@
 #include <STDLIB.H>
 
 #include "REG52.H"
-#include "uart_controller.h"
-#include "iic_controller.h"
+#include "UART.h"
+#include "IIC.h"
 
 sbit SCL = P0 ^ 1;
 sbit SDA = P0 ^ 0;
@@ -14,8 +14,7 @@ void IIC_Controller_Delay()
 
   _nop_();
   i = 11;
-  while (--i)
-    ;
+  while (--i);
 }
 
 void IIC_Controller_Start()
